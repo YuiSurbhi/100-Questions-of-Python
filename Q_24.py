@@ -1,5 +1,5 @@
 #program find ASCII value of character program
 
-char = "p"
+char = "j"
 
 print("The ASCII value of",char,"is",ord(char))
