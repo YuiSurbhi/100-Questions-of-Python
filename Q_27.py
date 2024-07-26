@@ -1,4 +1,4 @@
-#Program to make Simple Calculator
+# Program to make Simple Calculator
 
 print("~~~~~~~~~Mini Calculator~~~~~~~~~~")
 
