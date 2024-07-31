@@ -25,4 +25,14 @@ print(count)
 # 2) USING LIST AND DICTIONARY COMPREHENSIVE 
 # Initializing the string and vowels 
 a = "Harry Potter And The Goblet Of Fire"
-vowel = "aeiou"
+vowels = "aeiou"
+
+# Convert string into lowercase for case insensitive processing 
+a = a.casefold()
+
+# Create a dictionary for count of each vowel 
+# Iterate over each vowel in the 'vowels' string 
+count = {key:sum([1 for char in a if char == key])for key in vowels}
+
+# Print the result 
+print(count)
