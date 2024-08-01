@@ -1,6 +1,7 @@
 # Program to Merge Two Dictionaries
 
 # 1) USING | (BAR) OPERATOR
+
 # Define the two dictionaries 
 dict1 = {"John" : 89, "Lisa" : 99}
 dict2 = {"Lisa" : 94, "Peter" : 78}
@@ -9,6 +10,7 @@ dict2 = {"Lisa" : 94, "Peter" : 78}
 print(dict1 | dict2)
 
 # 2) USING ** OPERATOR 
+
 # Define the two dictionaries 
 dict1 = {"John" : 89, "Lisa" : 99}
 dict2 = {"Lisa" : 94, "Peter" : 78}
@@ -17,6 +19,7 @@ dict2 = {"Lisa" : 94, "Peter" : 78}
 print({**dict1,**dict2})
 
 # 3) USING COPY() AND UPDATE() METHOD 
+
 # Define the two dictionaries
 dict1 = {"John" : 89, "Lisa" : 99}
 dict2 = {"Lisa" : 94, "Peter" : 78}
