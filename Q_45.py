@@ -1,4 +1,4 @@
-# Program to Accessing Index of List using for Loop.
+# Program to Accessing Index of List using for Loop
 
 # USING ENUMERATE METHOD
 
