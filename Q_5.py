@@ -1,23 +1,23 @@
 # Program to swap two numbers.
 
-'''program using third variable'''
-x = 12;
-y = 13;
+'''Program using a third variable'''
+x = 12  # Initialize variable x with a value of 12
+y = 13  # Initialize variable y with a value of 13
 
-temp = x;
-print("The value of temp variable is : ",temp);
+temp = x  # Assign the value of x to a temporary variable 'temp'
+print("The value of temp variable is:", temp)  # Print the value of the temporary variable
 
-x = y;
-print("The value of x variable is : ",x);
+x = y  # Assign the value of y to x
+print("The value of x variable is:", x)  # Print the new value of x
 
-y = temp;
-print("The value of y variable is : ",y);
+y = temp  # Assign the value of the temporary variable back to y
+print("The value of y variable is:", y)  # Print the new value of y
 
-'''program without using third variable'''
-x = 12;
-y = 13;
+'''Program without using a third variable'''
+x = 12  # Initialize variable x with a value of 12
+y = 13  # Initialize variable y with a value of 13
 
-x,y = y,x;
+x, y = y, x  # Swap the values of x and y without using a third variable
 
-print("The value of x variable is : ",x);
-print("The value of y variable is : ",y);
+print("The value of x variable is:", x)  # Print the new value of x
+print("The value of y variable is:", y)  # Print the new value of y
